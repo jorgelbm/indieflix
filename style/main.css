@@ -8,9 +8,11 @@
     padding: 0;
     margin: 0;
 }
+/*Elementos base*/
 body{
     background: var(--dark);
     font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
 }
 
 header .container{
@@ -34,4 +36,24 @@ header nav a{
 }
 header nav a:hover{
     color: #FFF;
+}
+
+/*Jogo Principal*/
+.jogo-principal{
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/hollow-knight-wallpaper.jpg');
+    background-size: cover;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-bottom: 2em;
+}
+
+.titulo{
+    font-size: 2.25rem;
 }
